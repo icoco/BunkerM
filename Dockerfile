@@ -169,7 +169,7 @@ RUN chown -R mosquitto:mosquitto /var/lib/mosquitto && \
 #    chmod 600 /app/.env
 
 ENV MQTT_BROKER=localhost \
-    MQTT_PORT=1884 \
+    MQTT_PORT=1900 \
     MQTT_USERNAME=bunker \
     MQTT_PASSWORD=bunker \
     JWT_SECRET=Q22cVIiHkrrRJga1GP82JtZ75++ePRlopWzGaoPovhp3rUAA820baA6MQoPJbZJKFyjvSQaJUQYfQ/b2Mj6ZJg== \
