@@ -39,6 +39,9 @@ function *guidGenerator() {
     }
 }
 
+const getGuid = guidGenerator();
+
+
 // New user form data
 const newUser = ref({
   firstName: '',
